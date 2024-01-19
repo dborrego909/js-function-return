@@ -2,8 +2,14 @@
 // Square the Number
 // Spit out number in DOM 
 
+const input = document.querySelector("myInput");
+const para = document.querySelector('p');
+
 input.addEventListener("change", () => {
     const num = parseFloat(input.value);
+    if (isNaN(num)) {
+        para.textContent = "Please enter a number";
+    }
 
 })
 
