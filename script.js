@@ -1,11 +1,7 @@
-function getInputValue () {
-    let inputVal = document.getElementById("myInput").value;
+// addEventListener when "Get Value 'button'" is pressed take input and convert to int using parseFloat
+// Square the Number
+// Spit out number in DOM 
 
-    // alert(inputVal);
-}
+addEventListener("change", () => {
 
-const para = document.querySelector('ouput');
-
-para.textContent = `Does this ${inputVal}work now?`;
-
-document.getElementById('output').innerHTML = `why isnt this working${inputVal}`
+})
