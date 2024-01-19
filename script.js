@@ -2,6 +2,9 @@
 // Square the Number
 // Spit out number in DOM 
 
-addEventListener("change", () => {
+input.addEventListener("change", () => {
+    const num = parseFloat(input.value);
 
 })
+
+console.log(num);
