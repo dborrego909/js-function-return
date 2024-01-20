@@ -42,3 +42,8 @@ input.addEventListener("change", () => {
 
 })
 
+function favoriteAnimal(animal) {
+    return `${animal} is my favorite animal!`;
+}
+console.log(favoriteAnimal("Giraffe"));
+
